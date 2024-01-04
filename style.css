@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Lobster&display=swap');
+
+.container{
+    margin: 0 auto;
+    padding: 0 350px;
+    max-width: 90%;
+    
+}
+
+.first-section{
+    background-color: rgb(119, 207, 207);
+   padding: 50px 0;
+    
+   
+}
+ .first-section .main-column{
+    padding: 50px 30px;
+    border: 1px solid rgb(70, 152, 70);
+    box-shadow: 1px 1px 50px;
+    border-radius: 5px;
+    clip-path: polygon(50% 0%, 86% 10%, 100% 2%, 100% 90%, 93% 99%, 9% 99%, 0 89%, 0 0, 14% 11%);
+    background-color: rgb(38, 140, 140);
+
+ }
+
+.first-section h2{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    padding: 25px 0;
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+}
+.first-section p{
+    color: rgb(12, 52, 52);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Crimson Text', serif;
+    line-height: 25px;
+
+}
+
+.first-section img {
+	padding-top: 30px;
+	width: -moz-available;
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 11% 100%);
