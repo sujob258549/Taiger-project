@@ -50,3 +50,17 @@
 	padding-top: 30px;
 	width: -moz-available;
     clip-path: polygon(0 0, 100% 0, 90% 100%, 11% 100%);
+}
+.audio-video{
+    padding: 50px 0;
+}
+.audio-video video{
+    width: 650px;
+    padding-bottom: 20px;
+}
+.audio-video .main-column{
+    padding: 0 20px;
+}
+.audio-video audio{
+    padding: 10px 0;
+}
